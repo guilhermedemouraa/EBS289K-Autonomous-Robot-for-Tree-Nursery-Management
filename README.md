@@ -1,6 +1,8 @@
 # EBS289K-Autonomous-Robot-for-Tree-Nursery-Management
 Projects for the course EBS 289k: Sensors and Actuators in Agricultural Automation
 
+![simulation](https://user-images.githubusercontent.com/39603677/114103867-b8e13400-987e-11eb-8772-7a22a133c107.gif)
+
 ## Project Description
 Computer simulation of an agricultural robot inspecting a tree nursery. This project is part of the course EBS289K: Agricultural Robotics and Automation, thought at UC Davis by Prof. Stavros Vougioukas.
 The challenge consisted in programming a mobile robot equipped with a GPS, a digital compass, and a 2D laser scanner to traverse the field block and count the number of trees in each row. In addition, the diameter of the trunk of each tree should be estimated, so that management could decide which trees are ready for the market.
