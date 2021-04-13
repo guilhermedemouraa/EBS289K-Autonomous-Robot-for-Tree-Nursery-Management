@@ -1,5 +1,5 @@
 # EBS289K-Autonomous-Robot-for-Tree-Nursery-Management
-Projects for the course EBS 289k: Sensors and Actuators in Agricultural Automation
+Projects for the course EBS 289K: Sensors and Actuators in Agricultural Automation (UC Davis)
 
 ![simulation](https://user-images.githubusercontent.com/39603677/114103867-b8e13400-987e-11eb-8772-7a22a133c107.gif)
 
