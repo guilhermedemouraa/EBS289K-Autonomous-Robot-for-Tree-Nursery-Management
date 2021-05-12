@@ -13,13 +13,13 @@ Fig. 1 - Robot-compatible tree nursery. Source: Davey Nursery (https://www.davey
 
 The key steps for the success of this project included developing code for, path planning, robot localization, path following, and computer vision (to scan the environment, process digital images, create an occupancy grid, and classify each tree according to their diameter).
 
-• Path planning was performed through a genetic algorithm to optomize route through orchard and create shortest dubins path. 
+• Path planning was performed through a genetic algorithm to optmize route through orchard and create shortest dubins path. 
 
 • Robot localization was performed using sensor fusion (GPS and Odometer) through an Extended Kalman Filter. In order to make the simulation more realistic, simulated noise data was added to both GPS and odometer sensors.
 
-• Path following was performed performed through the Pure Pursuit algorithm (Coulter, R.C., 1992 - Implementation of the purse pursuit algorithm).
+• Path following was performed through the Pure Pursuit algorithm (Coulter, R.C., 1992 - Implementation of the purse pursuit algorithm).
 
-• Environment was characterized by an occupancy grid, which was generated from the data of a 2D laser scanner. In order to make the simulation more realistic, simulated noise data was added to the laser scanner. The noisy data was filtered with a low-pass filter.
+• The environment was characterized by an occupancy grid, which was generated from the data of a 2D laser scanner. In order to make the simulation more realistic, simulated noise data was added to the laser scanner. The noisy data was filtered with a low-pass filter.
 
 ### Simulation steps:
 
