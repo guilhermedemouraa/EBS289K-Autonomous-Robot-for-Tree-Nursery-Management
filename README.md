@@ -14,7 +14,7 @@ The challenge consisted in programming a mobile robot equipped with a GPS, a dig
 
 ![commercial_nursery_alternating_offering-greater-selection_640x426](https://user-images.githubusercontent.com/39603677/114094037-ad870c00-9870-11eb-8c6d-378ed0a3fb38.png)
 
-Fig. 1 - Robot-compatible tree nursery. Source: Davey Nursery (https://www.davey.com/commercial-landscape-services/the-davey-nursery/).
+Fig. 1 - Robot-compatible tree nursery. Source: [Davey Nursery](https://www.davey.com/commercial-landscape-services/the-davey-nursery/).
 
 The key steps for the success of this project included developing code for, path planning, robot localization, path following, and computer vision (to scan the environment, process digital images, create an occupancy grid, and classify each tree according to their diameter).
 
