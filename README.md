@@ -6,7 +6,7 @@ Projects for the course EBS 289K: Sensors and Actuators in Agricultural Automati
 ## Disclaimer:
 While every attempt has been made to accurately create a mobile robot simulation, the work has not been verified independently and some typographical and/or technical errors may be present due to the type of assumptions made. In any case, the authors (Guilherme De Moura Araujo, Bennet Evans, and Nicholas Buxbaum) hope that the present files will be a helpful guide and assist in making further improvements as necessary.
 
-The homework problems you will find in this repository are directly taken from course assignments with the instructor’s consent
+The project you will find in this repository is directly taken from course assignments with the instructor’s consent.
 
 ## Project Description
 Computer simulation of an agricultural robot inspecting a tree nursery. This project is part of the course EBS289K: Agricultural Robotics and Automation, taught at UC Davis by Prof. Stavros Vougioukas.
