@@ -4,7 +4,7 @@ Projects for the course EBS 289K: Sensors and Actuators in Agricultural Automati
 ![simulation](https://user-images.githubusercontent.com/39603677/114103867-b8e13400-987e-11eb-8772-7a22a133c107.gif)
 
 ## Disclaimer:
-While every attempt has been made to accurately create a mobile robot simulation, the work has not been verified independently and some typographical and/or technical errors may be present due to the type of assumptions made. In any case, the authors (Guilherme De Moura Araujo, Bennet Evans, and Nicholas Buxbaum) hope that the present files will be a helpful guide and assist in making further improvements as necessary.
+While every attempt has been made to accurately create a mobile robot simulation, the work has not been verified independently and some typographical and/or technical errors may be present due to the type of assumptions made. In any case, the authors (Guilherme De Moura Araujo, Bennett Evans, and Nicholas Buxbaum) hope that the present files will be a helpful guide and assist in making further improvements as necessary.
 
 The project you will find in this repository is directly taken from course assignments with the instructor’s consent.
 
@@ -63,7 +63,7 @@ c) Tree diameter estimate error
 ![tree diamater error](https://user-images.githubusercontent.com/39603677/114101806-1b383580-987b-11eb-9b16-dc6b1555475a.JPG)
 
 ### Files:
-• FinalProjectMain.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Masterfile for project. Initializes parameters, calls all functions, performs C.V. algorithms and produces final output.
+• FinalProjectMain.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Masterfile for project. Initializes parameters, calls all functions, performs C.V. algorithms and produces final output.
 
 • generateNursery.m: Author: Stavros G. Vougioukas. Description: Creates a randomized simulated nursery for testing.
 
@@ -73,9 +73,9 @@ c) Tree diameter estimate error
 
 • GPS_CompassNoisy: Author: Stavros G. Vougioukas. Description: Produces simulated noisy GPS data.
 
-• ekfODO: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Extended Kalman Filter implementation
+• ekfODO: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Extended Kalman Filter implementation
 
-• purePursuit.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Path tracking script, uses pure pursuit algorithm.
+• purePursuit.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Path tracking script, uses pure pursuit algorithm.
 
 • bresenhamfast.m: Author:Peter I. Corke. Description: Performs Bresenham line algorithm (processes 2D LIDAR data).
 
@@ -85,19 +85,19 @@ c) Tree diameter estimate error
 
 • XYtoIJ.m: Authot: Stavros G. Vougioukas. Description: Transforms coordinates from world to robot frame.
 
-• updateLaserBeamGrid.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Updates nursery occupancy grid.
+• updateLaserBeamGrid.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Updates nursery occupancy grid.
 
-• updateLaserBeamBitmap.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Updates nursery bitmap.
+• updateLaserBeamBitmap.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Updates nursery bitmap.
 
-• findTrees.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Image processing algorithm to scan an occupancy grid, find circular shapes, and 
+• findTrees.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Image processing algorithm to scan an occupancy grid, find circular shapes, and 
  record circular shape center location (x,y) and diameter.
 
 • draw_disc.m: Author: Stavros G. Vougioukas. Description: Draws simulated nursery.
 
-• Image_Processing_Error.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Performs statistical analysis on output data.
+• Image_Processing_Error.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Performs statistical analysis on output data.
 
-• bycicle_model.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Performs euler integration to find final state of the robot.
+• bycicle_model.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Performs euler integration to find final state of the robot.
 
-• draw_tractor.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Plots tractor model (robot).
+• draw_tractor.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Plots tractor model (robot).
 
-• move_robot.m: Author: Guilherme De Moura Araujo, Bennet Evans, and Nico Buxbaum. Description: Creates animated version of the robot moving.
+• move_robot.m: Author: Guilherme De Moura Araujo, Bennett Evans, and Nico Buxbaum. Description: Creates animated version of the robot moving.
