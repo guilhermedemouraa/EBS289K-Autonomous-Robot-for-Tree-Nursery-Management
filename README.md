@@ -16,15 +16,17 @@ The challenge consisted in programming a mobile robot equipped with a GPS, a dig
 
 Fig. 1 - Robot-compatible tree nursery. Source: [Davey Nursery](https://www.davey.com/commercial-landscape-services/the-davey-nursery/).
 
-The key steps for the success of this project included developing code for, path planning, robot localization, path following, and computer vision (to scan the environment, process digital images, create an occupancy grid, and classify each tree according to their diameter).
+The project's success relied on developing specific components, including Guidance, Navigation, and Control (GNC) for the robot, Simultaneous Localization and Mapping (SLAM) for environment perception, and computer vision algorithms for tree classification based on diameter.
 
-• Path planning was performed through a genetic algorithm to optmize route through orchard and create shortest dubins path. 
+• To ensure the robot moved along the optimal route through the orchard, we implemented a genetic algorithm for path planning that created the shortest Dubins path. This helped us save time and resources.
 
-• Robot localization was performed using sensor fusion (GPS and Odometer) through an Extended Kalman Filter. In order to make the simulation more realistic, simulated noise data was added to both GPS and odometer sensors.
+• In order to have a better understanding of the environment, we used a 2D laser scanner to generate an occupancy grid, which is basically a map of the orchard. This allowed us to classify each tree based on their diameter, which is important for orchard management.
 
-• Path following was performed through the Pure Pursuit algorithm (Coulter, R.C., 1992 - Implementation of the purse pursuit algorithm).
+• To make sure that the robot moved along the planned path, we used a technique called Pure Pursuit algorithm. It's like playing a game of follow-the-leader, but with the robot as the leader.
 
-• The environment was characterized by an occupancy grid, which was generated from the data of a 2D laser scanner. In order to make the simulation more realistic, simulated noise data was added to the laser scanner. The noisy data was filtered with a low-pass filter.
+• For the robot to know where it was in the orchard, we used a combination of GPS and odometer sensors, which we fused using an Extended Kalman Filter. This made it possible for us to get an accurate location of the robot and helped us simulate the real world better.
+
+• Since real-world conditions are not always perfect, we added simulated noise to the GPS, odometer, and laser scanner data. However, to make sure our results were reliable, we filtered out the noise using a low-pass filter.
 
 ### Simulation steps:
 
@@ -32,23 +34,27 @@ The key steps for the success of this project included developing code for, path
 
 ![Random nursery generate](https://user-images.githubusercontent.com/39603677/114100448-24280780-9879-11eb-8a3c-0f64d813e69a.png)
 
-2. Plan path
+2. Plan the path using a genetic algorithm and the dubbins path
 
 ![Path plan](https://user-images.githubusercontent.com/39603677/114100858-c6e08600-9879-11eb-935b-53494ac2deab.png)
 
-3. Traverse the field and scan the environment with the 2D LiDAR
+3. Traverse the field and scan the environment with the 2D LiDAR (SLAM)
 
 ![traverse](https://user-images.githubusercontent.com/39603677/114101067-0e671200-987a-11eb-969a-bd941313440c.JPG)
 
-4. Use low-pass filter to enhance LiDAR data
+4. Use low-pass filter to enhance LiDAR data (filter out noise)
 
 ![lowpass](https://user-images.githubusercontent.com/39603677/114101183-38b8cf80-987a-11eb-8a3d-00fef9fec8eb.JPG)
 
-5. Use image processing to locate trees and estimate their diameter
+5. Use image processing (Matlab's CV toolbox) to locate trees and estimate their diameter using the Hough Transform
 
-![part 2](https://user-images.githubusercontent.com/39603677/114101450-99e0a300-987a-11eb-95ca-9c816a5e01d4.JPG) ![final](https://user-images.githubusercontent.com/39603677/114101459-9c42fd00-987a-11eb-82a3-99535892bb05.JPG)
+![part 2](https://user-images.githubusercontent.com/39603677/114101450-99e0a300-987a-11eb-95ca-9c816a5e01d4.JPG) 
 
-6. Data Analysis
+6. Run the simulation
+
+![final](https://user-images.githubusercontent.com/39603677/114101459-9c42fd00-987a-11eb-82a3-99535892bb05.JPG)
+
+7. Data Analysis
 
 a) Navigation error
 
