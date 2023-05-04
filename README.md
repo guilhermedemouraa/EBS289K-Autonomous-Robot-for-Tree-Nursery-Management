@@ -46,7 +46,7 @@ The project's success relied on developing specific components, including Guidan
 
 ![lowpass](https://user-images.githubusercontent.com/39603677/114101183-38b8cf80-987a-11eb-8a3d-00fef9fec8eb.JPG)
 
-5. Use image processing (Matlab's CV toolbox) to locate trees and estimate their diameter using the Hough Transform
+5. Use image processing techniques such as morphological operations to enhance the orchard map (enhanced image), locate trees and estimate their diameter using the Hough Transform
 
 ![part 2](https://user-images.githubusercontent.com/39603677/114101450-99e0a300-987a-11eb-95ca-9c816a5e01d4.JPG) 
 
